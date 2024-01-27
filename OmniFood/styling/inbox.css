@@ -1,0 +1,369 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.titleMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: large;
+}
+.menuDiv{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    padding-top: 1em;
+}
+.menu{
+display: flex;
+gap: 2em;
+}
+.tryForFree,button{
+    position: relative;
+    top: -0.5em;
+    border: none;
+    width: 8em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    background-color: rgb(255, 128, 0);
+    font-size: 19px;
+    margin-top: -9px;
+    color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.LearnMoreBtn{
+    background-color: white;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.headImage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.slogon{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: relative;
+left: 5em;
+}
+.paraSlogon{
+    color: gray;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#im1{
+    width: 23em;
+}
+#im2{
+    width: 23em;
+    position: relative;
+    top: -9em;
+    left: 10em;
+}
+#im3{
+    position: relative;
+    width: 27em; 
+    top: -17em;
+    left: -3em;   
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.logos img{
+    width: 8em;
+    height: 2em;
+    filter: grayscale(100%);
+}
+.howItWorks{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 128, 0);
+    position: relative;
+    padding-left: 9em;
+}
+.introHIT{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 3.3em;
+    color:rgb(52, 52, 52);
+}
+.no1{
+    color: rgb(193, 193, 193);
+    font-size:100px;
+    position: relative;
+    top: .5em;
+}
+.steps{
+    display: grid;
+}
+.outim{
+ background-color:rgb(243, 226, 229);
+ width: 400px;
+ height: 400px;
+ border-radius: 50%;
+margin: 5em;
+margin-left: 10em;
+}
+.inim{
+    background-color: pink;
+    width: 300px;
+    height: 300px;   
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+
+}
+.step1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+}
+.step1 p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.inim img{
+    width: 13em;
+    position: relative;
+    top: -4em;
+    right: -3em;
+}
+.step1_01{
+    position: relative;
+    padding-left: 10em;
+}
+.meals{
+    text-align: center;
+}
+.meals h1{
+    font-weight: bold;
+    font-size:2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.meals h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  rgb(255, 128, 0);
+}
+.dishList{
+    display: flex;
+    justify-content: space-around;
+}
+.food{
+    border-radius: 30px;
+    transition: top 500ms ease-in-out;
+    top: 0px;
+    box-shadow: .5px .5px 12px gray;
+}
+.food:hover{
+    position: relative;
+    top:-10px;
+    transition: top 450ms;
+}
+.food img{
+    width: 25em;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.ovel{
+    font-size: .8em;
+    border-radius: 1em;
+    display: inline;
+    margin-right:1em ;
+    background-color: rgb(0, 229, 0);
+    width:8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.include{
+    position: relative;
+    left: 5em;
+}
+.seeallrecipes{
+    text-align: center;
+}
+.seeallrecipes a{
+    color:rgb(255, 128, 0) ;
+    text-decoration: underline;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    background-color: rgb(255, 232, 199);
+}
+.profile{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.profileImg{
+    width: 5em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.gallery img{
+    width: 10em;
+    transition: transform 350ms;
+    cursor: pointer;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+.p1{
+    margin: 2em;
+}
+.allProfiles h3{
+    padding-left: 3.5em;
+}
+.allProfiles h1{
+    padding-left: 2em;
+}
+.allProfiles .profile{
+    position: relative;
+    padding-left: 3em;
+}
+.gallery div{
+    overflow: hidden;
+    width: 10em;
+    height: 10em;
+    align-items: center;
+}
+.rupee{
+    display: inline;
+}
+.amount{
+    text-align: center;
+    overflow: hidden;
+}
+.amount h3{
+    color: rgb(255, 128, 0);
+}
+.pricing{
+    display: grid;
+    grid-template-columns: 2.3fr 2fr 1fr 2fr 2.3fr;
+    justify-content: space-between;
+}
+.pricing1{
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+.pricing2{
+    background-color: rgb(255, 211, 219);
+}
+.price{
+    text-align: center;
+}.below{
+    color: gray;
+}
+.moral{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows:1fr ;
+    gap: 30px;
+}
+.moral div p{
+    font-size: 16px;
+}
+.signupform{
+    width: 70em;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color:rgb(255, 128, 0) ;
+    border-radius: 30px;
+    padding: 5em;
+}
+.signupform *{
+    transform: scale(1.03);
+}
+.signupform img{
+    transform: scale(1.168);
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+.signupimg img{
+    width:17em;
+}
+input,select{
+    width: 250px;
+    height: 45px;
+    border-radius :7px;
+    border: none;
+}
+form button{
+    background-color: hsla(0, 0%, 0%, 0.666);
+    position: relative;
+    top: 2.4em;
+}
+.line{
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+}
+input{
+    text-align: center;
+}
+.form h1{
+    color: hsla(0, 0%, 0%, 0.666);font-weight:bolder;
+}
+.bestvalue{
+    background-color: rgb(255, 174, 0);
+    transform: rotate(45deg);
+    position: relative;
+    left: 5em;
+    height: 24px;
+    color: antiquewhite;
+}
+.infoImg{
+    width: 40px;
+    display: inline;
+    filter: grayscale();
+    
+}
+.i1{
+    width: 50px;
+    height: 40px;
+}
+td{
+    padding: 2em;
+}
+table{
+    margin-left: 10em;
+    text-align: center;
+}
+.alert{
+    display: none;
+}
+@media screen and (width<1400px){
+    .main{
+        display: none;
+    }
+    .alert{
+        display:block;
+        text-align: center;
+    }
+}
